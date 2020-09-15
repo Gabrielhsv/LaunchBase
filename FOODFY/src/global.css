@@ -1,0 +1,64 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap';
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Roboto-Regular';   
+}
+
+.links .link:hover { font-weight: bold } /* user hovers */
+
+.header {
+    width: 940px;
+    margin: 31px auto 50px;
+}
+
+.logo {
+    width: 95px;
+    padding-right: 122px;
+}
+
+.links .link {
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 30px;
+    color: #111111; 
+}
+
+.cards {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 940px;
+}
+
+.card-image img {
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+.card-description h1{
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.card-description p{
+    font-size: 14px;
+    color: #777777;
+    padding-top: 5px;
+}
+
+footer {
+    height: 62px;
+    background: #eeeeee;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777;
+    display: grid;
+    align-content: center;
+}

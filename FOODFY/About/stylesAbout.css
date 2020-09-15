@@ -1,0 +1,30 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap';
+
+.title {
+    margin: 50px auto 20px;
+    width: 940px;
+    line-height: 28px;
+    font-size: 24px;
+    font: bold;
+}
+
+.subtitle {
+    margin: 30px auto 20px;
+    width: 940px;
+    font-size: 20px;
+    font: bold;
+    line-height: 24px;
+}
+
+.about-paragraph {
+    width: 940px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+.about-paragraph p+p{
+    margin: 30px auto;
+}
+
